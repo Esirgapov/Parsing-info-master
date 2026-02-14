@@ -89,7 +89,7 @@ def get_test_links() -> List[str]:
 
         page += 1
 
-    return links[:2]
+    return links
 
 
 QUIZ_OPTIONS_RE = re.compile(
